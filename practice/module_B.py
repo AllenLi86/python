@@ -7,13 +7,6 @@ print("__name__: ", __name__)
 print("call func remotely")
 cool()
 
-# 執行結果:
-#   __name__:  module_A
-#   call func locally
-#   This is so cool!
-#   call func remotely
-#   This is so cool!
-
 # module_A.py 中的主程式在被引用的時候也被執行了，原因在於：
 # 1. 當 Python 檔案（模組、module）被引用的時候，
 #    檔案內的每一行都會被 Python 直譯器讀取並執行（所以 module_A.py內的程式碼會被執行）
