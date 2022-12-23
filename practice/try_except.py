@@ -1,6 +1,6 @@
 # raise
 # raise ValueError("錯誤訊息")
-# except ValueError as msg:
+# except ValueError:
 
 # assert False, "錯誤訊息"
 # except AssertionError as msg:
