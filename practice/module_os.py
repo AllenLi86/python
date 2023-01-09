@@ -11,7 +11,7 @@ path3 = "./abcdefg"
 
 print(1, os.path.exists(path3))  # 檢查路徑是否存在
 
-print(2, os.path.dirname(__file__))  # 取得檔案路徑 (__file__有時候回傳相對路徑，有時候返回傳絕對路徑)
+print(2, os.path.dirname(__file__))  # 取得檔案路徑 (__file__有時候回傳相對路徑，有時候回傳絕對路徑)
 print(3, os.path.dirname("D:\\vsc\\python\\practice\\class.py"))
 print(4, os.path.basename(__file__))  # 取得檔名
 print(5, os.path.realpath(__file__))  # 取得檔案絕對路徑+檔名
