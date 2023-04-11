@@ -12,7 +12,7 @@ while True:
     else:
         j+=1
    
-print("j= ", j)
+print("j =", j)
 
 for i in range(4, j):
     max = str(ws[f'G{i}'].value)
